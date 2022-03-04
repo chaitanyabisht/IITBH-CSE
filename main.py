@@ -1,10 +1,20 @@
 import streamlit as st
+import api
+
+
 st.title('Welcome to course website for IIT Bhilai')
 st.subheader('Browse courses below')
 
-option = st.selectbox(
-     'Select the course',
-     ('CS200 - Software Tools and Technologies II', 'CS254 - Database and Management Systems', 'CS250 - Operating Systems'))
+browse = False
 
-st.write('You selected:', option)
+if (not browse):
+    course = st.selectbox(
+     'Select the course', api.course_list())
+else:
+    st.write('hello')
+
+
+if st.button('Browse'):
+    browse = True
+    
 
