@@ -14,7 +14,7 @@ def bfs(queue, reached, start_vertex, end_vertex):
         d += 1
         x = queue.pop(0)
 
-        for i in graph[y]:
+        for i in graph[x]:
             if i not in reached:
                 queue.append(i)
                 reached.append(i)
