@@ -1,15 +1,15 @@
 def binary_search(arr, x):
-        low = 0
+        down = 0
         high = len(arr) - 1
         mid = 0
 
-        while low <= high:
+        while down <= high:
 
-            mid = (high + low) // 2
+            mid = (high + down) // 2
 
             # If x is greater, ignore left half
             if arr[mid] < x:
-                low = mid + 1
+                down = mid + 1
 
             # If x is smaller, ignore right half
             elif arr[mid] > x:
