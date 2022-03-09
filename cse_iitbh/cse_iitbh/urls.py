@@ -23,5 +23,10 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+<<<<<<< HEAD
     path('courses/', views.courses, name='courses')
+=======
+    path('', views.homepage, name='homepage'),
+     path('ycse', views.ycse, name='ycse')
+>>>>>>> f35c2296129a6aa073b15555110d8cc9275c2d9d
 ]
