@@ -9,7 +9,7 @@
 ` python3 -m pip install Django `
 4. To start the app locally 
 ` python manage.py runserver `
-=======
+
 
 This website is for course material sharing for CSE Branch for IIT Bhilai
 
