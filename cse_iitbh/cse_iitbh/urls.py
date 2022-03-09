@@ -26,5 +26,5 @@ urlpatterns = [
     path('courses/', views.courses, name='courses'),
     path('', views.homepage, name='homepage'),
     path('ycse', views.ycse, name='ycse'),
-    path('faculty',views.facutlty, name='faculty')
+    path('faculty',views.faculty, name='faculty')
 ]
