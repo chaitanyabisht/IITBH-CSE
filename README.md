@@ -1,5 +1,4 @@
 # IITBH-CSE
-<<<<<<< HEAD
 ## How to Start
 
 1. Install a virtual environment 
