@@ -8,3 +8,4 @@ def homepage(request):
 
 def faculty(request):
     return render(request, "faculty.html")
+
