@@ -26,5 +26,4 @@ urlpatterns = [
     path('courses/', views.courses, name='courses')
     # path('', views.homepage, name='homepage'),
     # path('ycse', views.ycse, name='ycse')
-
 ]
