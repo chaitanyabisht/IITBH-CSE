@@ -18,3 +18,5 @@ def courses(request):
     context = {"course_list":course_list()}
     return render(request, 'courses.html', context)
 
+def faculty(request):
+    return render(request, "faculty.html")
