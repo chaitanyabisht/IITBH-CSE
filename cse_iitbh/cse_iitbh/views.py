@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+import requests
 
 
 
@@ -10,7 +11,7 @@ def home(request):
     return render(request,'homepage.html')
 
 def course_list():
-    lst = request.get('https://api.github.com/orgs/IIT-Bhilai-CSE/repos?type=all').json()
+    lst = requests.get('https://api.github.com/orgs/IIT-Bhilai-CSE/repos?type=all').json()
     return [item['name'] for item in lst]
 
 
