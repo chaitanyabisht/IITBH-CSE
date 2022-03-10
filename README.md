@@ -6,7 +6,7 @@
 2. Create a virtual environment
 ` python3 -m venv venv `
 3. To activate venv
-`source venv\bin\activate`
+`source venv/bin/activate`
 4. To install Django if not installed earlier
 ` python3 -m pip install Django `
 5. To start the app locally 
