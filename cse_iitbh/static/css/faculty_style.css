@@ -14,10 +14,12 @@ body {
   min-height: 100vh;
   font-family: 'Open Sans';
   background: #fafafa;
+
 }
 
 a {
   color: inherit;
+  
 }
 
 .cards-wrapper {
@@ -194,3 +196,4 @@ a {
     margin: 0;
   }
 }
+

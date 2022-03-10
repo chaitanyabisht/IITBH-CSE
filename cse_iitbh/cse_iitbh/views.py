@@ -3,13 +3,16 @@ from django.shortcuts import render
 
 
 
+def homepage(request):
+    return render(request,'homepage.html')
+
+def home(request):
+    return render(request,'homepage.html')
+
 def course_list():
     lst = request.get('https://api.github.com/orgs/IIT-Bhilai-CSE/repos?type=all').json()
     return [item['name'] for item in lst]
 
-
-def homepage(request):
-    return render(request,'homepage.html')
 
 def ycse(request):
     return render(request,'y_index.html')
